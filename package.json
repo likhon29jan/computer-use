@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Build a computer-using agent that can perform tasks on your behalf.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likhon29jan/computer-use.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/likhon29jan/computer-use/issues"
+  },
+  "homepage": "https://github.com/likhon29jan/computer-use#readme",
+  "dependencies": {
+    "@ai-sdk/google": "^2.0.23",
+    "ai": "^5.0.72",
+    "playwright": "^1.56.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.2",
+    "typescript": "^5.9.3"
+  }
+}
